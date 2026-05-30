@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>站内搜索-日韩电影合集</title>
+    <meta name="description" content="日韩最新电影站内搜索，按名称、年份、地区和标签查找影片。">
+    <meta name="keywords" content="站内搜索,日韩最新电影,日韩影片,最新影片,高清播放,电影合集,日韩电影推荐,影视更新">
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+<body>
+<header class="site-header">
+    <nav class="nav-shell">
+        <a class="brand" href="./index.html" aria-label="日韩电影合集">
+            <span class="brand-icon">▶</span>
+            <span>日韩电影合集</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-label="菜单" data-nav-toggle>
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="nav-links" data-nav-links>
+            <a href="./index.html">首页</a>
+            <a href="./categories.html">分类</a>
+                <a href="./category-latest-collection.html">最新影片</a>
+                <a href="./category-hot-picks.html">热门推荐</a>
+                <a href="./category-high-score.html">口碑佳作</a>
+                <a href="./category-japan-korea-focus.html">日韩专题</a>
+                <a href="./category-romance-healing.html">爱情治愈</a>
+            <a href="./rankings.html">排行榜</a>
+            <a href="./search.html">搜索</a>
+        </div>
+    </nav>
+</header>
+<main>
+    <section class="page-hero tone-purple">
+        <h1>站内搜索</h1>
+        <p>输入影片名称、地区、类型、年份或标签，快速查找可播放内容。</p>
+        <form class="page-search" action="./search.html" method="get" data-search-page-form>
+            <input type="search" name="q" placeholder="输入关键词" autocomplete="off" data-search-input>
+            <button type="submit">搜索</button>
+        </form>
+    </section>
+    <section class="content-section">
+        <div class="search-results" data-search-results>
+            <p class="muted">请输入关键词开始搜索。</p>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="footer-grid">
+        <div>
+            <h3>日韩电影合集</h3>
+            <p>整理近期更新的日韩电影内容，覆盖多样题材与热门作品，适合按时间和类型浏览。</p>
+        </div>
+        <div>
+            <h4>频道</h4>
+            <a href="./index.html">首页</a>
+            <a href="./categories.html">分类总览</a>
+            <a href="./rankings.html">排行榜</a>
+            <a href="./search.html">站内搜索</a>
+        </div>
+        <div>
+            <h4>片单</h4>
+            <a href="./category-latest-collection.html">最新影片</a>
+            <a href="./category-japan-korea-focus.html">日韩专题</a>
+            <a href="./category-suspense-thriller.html">悬疑惊悚</a>
+            <a href="./category-romance-healing.html">爱情治愈</a>
+        </div>
+        <div>
+            <h4>观影</h4>
+            <p>精选影片、剧集与专题片单，支持按名称、地区、年份快速浏览。</p>
+        </div>
+    </div>
+    <div class="footer-bottom">© 2026 日韩电影合集</div>
+</footer>
+    <script src="./assets/search-index.js"></script>
+    <script src="./assets/site.js" defer></script>
+    <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+    </script>
+</body>
+</html>
